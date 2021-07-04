@@ -40,7 +40,7 @@ public class UnitMovement : NetworkBehaviour
     private void Update()
     {
         if (!hasAuthority) { return; }
-        if (!Mouse.current.leftButton.wasPressedThisFrame) { return; }
+        if (!Mouse.current.rightButton.wasPressedThisFrame) { return; }
 
         // Raycasting
         Ray ray = mainCamera.ScreenPointToRay(Mouse.current.position.ReadValue());
