@@ -105,9 +105,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3828097548370478696}
   - component: {fileID: 1849115989962678197}
-  - component: {fileID: 1008858886866552235}
   - component: {fileID: 6101083291086807940}
   - component: {fileID: 216787253907016627}
+  - component: {fileID: 1008858886866552235}
   - component: {fileID: 2575534051815829280}
   - component: {fileID: 5347982727537070701}
   m_Layer: 0
@@ -150,21 +150,6 @@ MonoBehaviour:
   visible: 0
   m_AssetId: 
   hasSpawned: 0
---- !u!114 &1008858886866552235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7062677984696153595}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88a3454e1b111d5409c046dfd35b4e08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  syncMode: 0
-  syncInterval: 0.1
-  agent: {fileID: 6101083291086807940}
 --- !u!195 &6101083291086807940
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -210,6 +195,21 @@ MonoBehaviour:
   interpolateRotation: 1
   interpolatePosition: 1
   syncScale: 1
+--- !u!114 &1008858886866552235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7062677984696153595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88a3454e1b111d5409c046dfd35b4e08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  agent: {fileID: 6101083291086807940}
 --- !u!114 &2575534051815829280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,6 +254,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  unitMovement: {fileID: 1008858886866552235}
 --- !u!65 &5347982727537070701
 BoxCollider:
   m_ObjectHideFlags: 0

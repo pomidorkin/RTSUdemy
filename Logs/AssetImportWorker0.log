@@ -15,11 +15,11 @@ C:/Users/pbriu/Documents/UnityProjects/RealtimeStrategy
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59271
+58666
 Successfully changed project path to: C:/Users/pbriu/Documents/UnityProjects/RealtimeStrategy
 C:/Users/pbriu/Documents/UnityProjects/RealtimeStrategy
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 59.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,362 +35,138 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001504 seconds.
+Registered in 0.001462 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.829 seconds
+- Completed reload, in  0.859 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005068 seconds.
+Registered in 0.004435 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 52.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 54.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Find all reader and writers took 82 milliseconds
+Find all reader and writers took 93 milliseconds
 Script Module: UnityEngine.UI.dll
-Weave behaviours and messages took56 milliseconds
-Find all reader and writers took 66 milliseconds
+Weave behaviours and messages took55 milliseconds
+Find all reader and writers took 67 milliseconds
 Script Module: Unity.RenderPipelines.Core.Runtime.dll
 Weave behaviours and messages took46 milliseconds
-Find all reader and writers took 64 milliseconds
+Find all reader and writers took 71 milliseconds
 Script Module: UnityEngine.TestRunner.dll
-Weave behaviours and messages took18 milliseconds
-Find all reader and writers took 67 milliseconds
+Weave behaviours and messages took23 milliseconds
+Find all reader and writers took 77 milliseconds
 Script Module: Unity.Mathematics.dll
-Weave behaviours and messages took129 milliseconds
-Find all reader and writers took 75 milliseconds
-Script Module: Unity.InputSystem.dll
-Weave behaviours and messages took149 milliseconds
-Find all reader and writers took 57 milliseconds
-Script Module: SimpleWebTransport.dll
-Weave behaviours and messages took6 milliseconds
-Find all reader and writers took 78 milliseconds
-Script Module: Unity.RenderPipelines.Universal.Runtime.dll
-Weave behaviours and messages took42 milliseconds
+Weave behaviours and messages took158 milliseconds
 Find all reader and writers took 81 milliseconds
-Script Module: Unity.TextMeshPro.dll
-Weave behaviours and messages took53 milliseconds
-Find all reader and writers took 57 milliseconds
-Script Module: Unity.ProBuilder.Poly2Tri.dll
+Script Module: Unity.InputSystem.dll
+Weave behaviours and messages took141 milliseconds
+Find all reader and writers took 61 milliseconds
+Script Module: SimpleWebTransport.dll
 Weave behaviours and messages took4 milliseconds
-Find all reader and writers took 67 milliseconds
+Find all reader and writers took 97 milliseconds
+Script Module: Unity.RenderPipelines.Universal.Runtime.dll
+Weave behaviours and messages took48 milliseconds
+Find all reader and writers took 103 milliseconds
+Script Module: Unity.TextMeshPro.dll
+Weave behaviours and messages took57 milliseconds
+Find all reader and writers took 69 milliseconds
+Script Module: Unity.ProBuilder.Poly2Tri.dll
+Weave behaviours and messages took5 milliseconds
+Find all reader and writers took 82 milliseconds
 Script Module: Cinemachine.dll
-Weave behaviours and messages took42 milliseconds
-Find all reader and writers took 64 milliseconds
+Weave behaviours and messages took57 milliseconds
+Find all reader and writers took 86 milliseconds
 Script Module: Unity.Timeline.dll
-Weave behaviours and messages took17 milliseconds
-Find all reader and writers took 64 milliseconds
+Weave behaviours and messages took21 milliseconds
+Find all reader and writers took 79 milliseconds
 Script Module: Unity.ProBuilder.dll
-Weave behaviours and messages took52 milliseconds
-Find all reader and writers took 66 milliseconds
+Weave behaviours and messages took56 milliseconds
+Find all reader and writers took 62 milliseconds
 Script Module: Telepathy.dll
-Weave behaviours and messages took1 milliseconds
-Find all reader and writers took 68 milliseconds
+Weave behaviours and messages took3 milliseconds
+Find all reader and writers took 79 milliseconds
 Script Module: Unity.ProGrids.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 60 milliseconds
+Find all reader and writers took 65 milliseconds
 Script Module: Unity.ProBuilder.Csg.dll
 Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 60 milliseconds
+Find all reader and writers took 64 milliseconds
 Script Module: kcp2k.dll
-Weave behaviours and messages took4 milliseconds
-Find all reader and writers took 61 milliseconds
-Script Module: Unity.ProBuilder.KdTree.dll
 Weave behaviours and messages took3 milliseconds
-Find all reader and writers took 61 milliseconds
+Find all reader and writers took 60 milliseconds
+Script Module: Unity.ProBuilder.KdTree.dll
+Weave behaviours and messages took4 milliseconds
+Find all reader and writers took 60 milliseconds
 Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 61 milliseconds
+Find all reader and writers took 104 milliseconds
 Script Module: Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 62 milliseconds
+Find all reader and writers took 66 milliseconds
 Script Module: Unity.ProBuilder.Stl.dll
 Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 63 milliseconds
+Find all reader and writers took 70 milliseconds
 Script Module: Unity.RenderPipelines.Universal.Shaders.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 60 milliseconds
+Find all reader and writers took 81 milliseconds
 Script Module: Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 79 milliseconds
+Find all reader and writers took 82 milliseconds
 Script Module: com.unity.cinemachine.editor.dll
-Weave behaviours and messages took26 milliseconds
-Find all reader and writers took 80 milliseconds
+Weave behaviours and messages took31 milliseconds
+Find all reader and writers took 79 milliseconds
 Script Module: UnityEditor.TestRunner.dll
-Weave behaviours and messages took30 milliseconds
-Find all reader and writers took 80 milliseconds
+Weave behaviours and messages took32 milliseconds
+Find all reader and writers took 91 milliseconds
 Script Module: Unity.ProBuilder.AssetIdRemapUtility.dll
 Weave behaviours and messages took2 milliseconds
-Find all reader and writers took 59 milliseconds
+Find all reader and writers took 71 milliseconds
 Script Module: Mirror.CompilerSymbols.dll
 Weave behaviours and messages took0 milliseconds
-Find all reader and writers took 76 milliseconds
+Find all reader and writers took 91 milliseconds
 Script Module: UnityEditor.UI.dll
-Weave behaviours and messages took10 milliseconds
-Find all reader and writers took 63 milliseconds
+Weave behaviours and messages took8 milliseconds
+Find all reader and writers took 72 milliseconds
 Script Module: Unity.ShaderGraph.Utilities.dll
 Weave behaviours and messages took0 milliseconds
 Mono: successfully reloaded assembly
-- Completed reload, in  7.293 seconds
+- Completed reload, in  8.203 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3796 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 164.5 MB.
-System memory in use after: 161.7 MB.
-
-Unloading 183 unused Assets to reduce memory usage. Loaded Objects now: 4186.
-Total: 5.819800 ms (FindLiveObjects: 0.333400 ms CreateObjectMapping: 0.165700 ms MarkObjects: 3.952700 ms  DeleteObjects: 1.367300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(a743d06db73bf9243816a22a7e0ddc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(a743d06db73bf9243816a22a7e0ddc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617ce7496a1467b068ba251b7fe3f201') in 0.033554 seconds
-  Import took 0.039662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 158.825560 seconds.
-  path: Assets/Prefabs/UnitSpawner.prefab
-  artifactKey: Guid(a6b23ddbb73d9ac46a08e3e4061874d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UnitSpawner.prefab using Guid(a6b23ddbb73d9ac46a08e3e4061874d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbd80a7b5ffe4df1aefb189f6281d6e') in 0.008889 seconds
-  Import took 0.014394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010124 seconds.
-  path: Assets/Prefabs/UnitSpawner.prefab
-  artifactKey: Guid(a6b23ddbb73d9ac46a08e3e4061874d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UnitSpawner.prefab using Guid(a6b23ddbb73d9ac46a08e3e4061874d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbd80a7b5ffe4df1aefb189f6281d6e') in 0.004774 seconds
-  Import took 0.010540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.102762 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(d0234ba368eeec9418390da711bfdad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1fccef896d48891410691dfde716e5') in 0.009356 seconds
-  Import took 0.016390 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 138.377973 seconds.
-  path: Assets/Scripts/Buildings
-  artifactKey: Guid(24ab1e8af86b2394d83b89ac2b645d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Buildings using Guid(24ab1e8af86b2394d83b89ac2b645d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077f25008d9bb784df18572266862ec7') in 0.008459 seconds
-  Import took 0.015780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.917181 seconds.
-  path: Assets/Scripts/Buildings/UnitSpawner.cs
-  artifactKey: Guid(7f69481361e9d324e9de03d2999ade08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Buildings/UnitSpawner.cs using Guid(7f69481361e9d324e9de03d2999ade08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787061f35858b47c243383a15c6a2bce') in 0.013928 seconds
-  Import took 0.021315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001105 seconds.
-  path: Assets/Scripts/Buildings/UnitSpawner.cs
-  artifactKey: Guid(7f69481361e9d324e9de03d2999ade08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Buildings/UnitSpawner.cs using Guid(7f69481361e9d324e9de03d2999ade08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787061f35858b47c243383a15c6a2bce') in 0.002267 seconds
-  Import took 0.008658 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005832 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.092 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3686 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 158.4 MB.
-System memory in use after: 155.6 MB.
-
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4190.
-Total: 4.955800 ms (FindLiveObjects: 0.812100 ms CreateObjectMapping: 0.239500 ms MarkObjects: 2.490600 ms  DeleteObjects: 1.412100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004221 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.027 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3686 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 158.5 MB.
-System memory in use after: 155.7 MB.
-
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4193.
-Total: 4.345900 ms (FindLiveObjects: 0.313300 ms CreateObjectMapping: 0.176500 ms MarkObjects: 2.222100 ms  DeleteObjects: 1.633000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004412 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.985 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3686 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 158.4 MB.
-System memory in use after: 155.6 MB.
-
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4196.
-Total: 4.235200 ms (FindLiveObjects: 0.395700 ms CreateObjectMapping: 0.193500 ms MarkObjects: 2.399200 ms  DeleteObjects: 1.246100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1647.080578 seconds.
-  path: Assets/Prefabs/UnitSpawner.prefab
-  artifactKey: Guid(a6b23ddbb73d9ac46a08e3e4061874d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/UnitSpawner.prefab using Guid(a6b23ddbb73d9ac46a08e3e4061874d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db10d3e76413a09b3f953a807f2a6bb0') in 0.278545 seconds
-  Import took 0.287768 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004462 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.002 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3686 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.0 MB.
-System memory in use after: 160.2 MB.
-
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4245.
-Total: 4.053700 ms (FindLiveObjects: 0.381500 ms CreateObjectMapping: 0.193600 ms MarkObjects: 2.324800 ms  DeleteObjects: 1.152800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004971 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+Unloading 3800 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.8 MB.
+System memory in use after: 161.9 MB.
 
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  3.097 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3686 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.0 MB.
-System memory in use after: 160.2 MB.
-
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4248.
-Total: 5.765900 ms (FindLiveObjects: 0.405800 ms CreateObjectMapping: 0.205000 ms MarkObjects: 2.869500 ms  DeleteObjects: 2.284800 ms)
+Unloading 183 unused Assets to reduce memory usage. Loaded Objects now: 4190.
+Total: 10.028300 ms (FindLiveObjects: 0.980900 ms CreateObjectMapping: 0.491500 ms MarkObjects: 6.187700 ms  DeleteObjects: 2.365400 ms)
 
 ========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 3.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 54 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.9 MB.
-System memory in use after: 88.1 MB.
-
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 4248.
-Total: 4.788300 ms (FindLiveObjects: 0.503400 ms CreateObjectMapping: 0.204400 ms MarkObjects: 2.449200 ms  DeleteObjects: 1.630900 ms)
+Received Import Request.
+  path: Assets/Scripts/Units/UnitCommandGiver.cs
+  artifactKey: Guid(62f2823963ec4a54594c64fd36c3d564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Units/UnitCommandGiver.cs using Guid(62f2823963ec4a54594c64fd36c3d564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca55aad54f0388cbcdf482d641669888') in 0.034948 seconds
+  Import took 0.042901 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005938 seconds.
+Registered in 0.009880 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -402,353 +178,64 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.714 seconds
+- Completed reload, in  0.999 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3686 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.0 MB.
-System memory in use after: 160.2 MB.
+Unloading 3689 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.6 MB.
+System memory in use after: 155.8 MB.
 
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4251.
-Total: 10.109200 ms (FindLiveObjects: 1.534400 ms CreateObjectMapping: 0.381300 ms MarkObjects: 3.742000 ms  DeleteObjects: 4.449000 ms)
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4193.
+Total: 4.150300 ms (FindLiveObjects: 0.372700 ms CreateObjectMapping: 0.184500 ms MarkObjects: 2.370900 ms  DeleteObjects: 1.221500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4838.116037 seconds.
+  Time since last request: 1037.812955 seconds.
+  path: Assets/Scripts/Units/UnitCommandGiver.cs
+  artifactKey: Guid(62f2823963ec4a54594c64fd36c3d564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Units/UnitCommandGiver.cs using Guid(62f2823963ec4a54594c64fd36c3d564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc12e09249d5be35616be5ad4cf66659') in 0.006533 seconds
+  Import took 0.011523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.614623 seconds.
   path: Assets/Prefabs/Unit.prefab
   artifactKey: Guid(923c12bf343eb994db02b2c16a9aa2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Unit.prefab using Guid(923c12bf343eb994db02b2c16a9aa2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1c5e0a1c780d194f5831ab9ea315d6') in 0.298291 seconds
-  Import took 0.305613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.280371 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(b2834ccf779b07c4484123a1f8a8921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(b2834ccf779b07c4484123a1f8a8921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc76e30d9708a27cf8bcb617735735c7') in 0.010441 seconds
-  Import took 0.016247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004306 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(b2834ccf779b07c4484123a1f8a8921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(b2834ccf779b07c4484123a1f8a8921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc76e30d9708a27cf8bcb617735735c7') in 0.003675 seconds
-  Import took 0.009330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 258.914639 seconds.
-  path: Assets/Sprites/New Physics Material 2D.physicsMaterial2D
-  artifactKey: Guid(5954a16015c26c34ea2085af4059be60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/New Physics Material 2D.physicsMaterial2D using Guid(5954a16015c26c34ea2085af4059be60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fab4892e4997ef912c1e7696e9fa214') in 0.009209 seconds
-  Import took 0.016657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 217.772357 seconds.
-  path: Assets/Scripts/Units
-  artifactKey: Guid(1adf76e7af38a894fa836c208d297996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Units using Guid(1adf76e7af38a894fa836c208d297996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8992266a6f311060c9462722c8a7fe2') in 0.009218 seconds
-  Import took 0.016494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.539658 seconds.
-  path: Assets/Scripts/Units/UnitMovement.cs
-  artifactKey: Guid(88a3454e1b111d5409c046dfd35b4e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Units/UnitMovement.cs using Guid(88a3454e1b111d5409c046dfd35b4e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ae1ba0884672ec9129c89e99da331a') in 0.008187 seconds
-  Import took 0.016720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004476 seconds.
-  path: Assets/Scripts/Units/UnitMovement.cs
-  artifactKey: Guid(88a3454e1b111d5409c046dfd35b4e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Units/UnitMovement.cs using Guid(88a3454e1b111d5409c046dfd35b4e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ae1ba0884672ec9129c89e99da331a') in 0.004125 seconds
-  Import took 0.011852 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.506581 seconds.
-  path: Assets/Scripts/Units/Unit.cs
-  artifactKey: Guid(ebec1c2e5b2c0c04994e2c75e1abeecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Units/Unit.cs using Guid(ebec1c2e5b2c0c04994e2c75e1abeecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68aef869e167dfd29daaca6f462ff600') in 0.009905 seconds
-  Import took 0.016595 seconds .
+Start importing Assets/Prefabs/Unit.prefab using Guid(923c12bf343eb994db02b2c16a9aa2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5e5d54c1a82a506918f20756f10bf9') in 0.254079 seconds
+  Import took 0.260427 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006960 seconds.
+Registered in 0.004547 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.155 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3687 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.3 MB.
-System memory in use after: 160.4 MB.
-
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4291.
-Total: 4.443100 ms (FindLiveObjects: 0.330900 ms CreateObjectMapping: 0.171000 ms MarkObjects: 2.401200 ms  DeleteObjects: 1.539200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004836 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.022 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3687 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.3 MB.
-System memory in use after: 160.4 MB.
-
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4294.
-Total: 4.630100 ms (FindLiveObjects: 0.353200 ms CreateObjectMapping: 0.166100 ms MarkObjects: 2.587300 ms  DeleteObjects: 1.522800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 131.476699 seconds.
-  path: Assets/Scripts/Units/Unit.cs
-  artifactKey: Guid(ebec1c2e5b2c0c04994e2c75e1abeecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Units/Unit.cs using Guid(ebec1c2e5b2c0c04994e2c75e1abeecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6b35fa6d1012b5ca18f7c7fc86ded9') in 0.006006 seconds
-  Import took 0.011497 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005047 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.008 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3687 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.3 MB.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.021 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3689 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.1 MB.
 System memory in use after: 160.4 MB.
 
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4297.
-Total: 4.640200 ms (FindLiveObjects: 0.460400 ms CreateObjectMapping: 0.158900 ms MarkObjects: 2.454900 ms  DeleteObjects: 1.565400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 328.797780 seconds.
-  path: Assets/Scripts/Units/UnitSelectionHandle.cs
-  artifactKey: Guid(d9ecab5e84403da469216802e21a94ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Units/UnitSelectionHandle.cs using Guid(d9ecab5e84403da469216802e21a94ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a3df0cc46e48f565b547336266bfe4') in 0.024993 seconds
-  Import took 0.030160 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008157 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.109 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3688 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.2 MB.
-System memory in use after: 160.5 MB.
-
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4301.
-Total: 5.036600 ms (FindLiveObjects: 0.334200 ms CreateObjectMapping: 0.165800 ms MarkObjects: 2.882100 ms  DeleteObjects: 1.653400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004687 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.026 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3688 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.3 MB.
-System memory in use after: 160.5 MB.
-
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4304.
-Total: 4.487000 ms (FindLiveObjects: 0.317100 ms CreateObjectMapping: 0.153300 ms MarkObjects: 2.567100 ms  DeleteObjects: 1.448900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 430.638804 seconds.
-  path: Assets/Scripts/Units/UnitSelectionHandle.cs
-  artifactKey: Guid(d9ecab5e84403da469216802e21a94ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Units/UnitSelectionHandle.cs using Guid(d9ecab5e84403da469216802e21a94ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdffd15ea4b92c5586a3f66e9a8fa49b') in 0.007147 seconds
-  Import took 0.012183 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004862 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.063 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3688 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.2 MB.
-System memory in use after: 160.4 MB.
-
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4307.
-Total: 4.282100 ms (FindLiveObjects: 0.309700 ms CreateObjectMapping: 0.161200 ms MarkObjects: 2.275700 ms  DeleteObjects: 1.534500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004614 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.011 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3688 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.3 MB.
-System memory in use after: 160.5 MB.
-
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4310.
-Total: 4.555700 ms (FindLiveObjects: 0.333400 ms CreateObjectMapping: 0.157100 ms MarkObjects: 2.649000 ms  DeleteObjects: 1.415400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004809 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3688 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.3 MB.
-System memory in use after: 160.5 MB.
-
-Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4313.
-Total: 4.405900 ms (FindLiveObjects: 0.321500 ms CreateObjectMapping: 0.155900 ms MarkObjects: 2.523300 ms  DeleteObjects: 1.404500 ms)
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4242.
+Total: 3.951300 ms (FindLiveObjects: 0.313200 ms CreateObjectMapping: 0.150400 ms MarkObjects: 2.242700 ms  DeleteObjects: 1.244200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
