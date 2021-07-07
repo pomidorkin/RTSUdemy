@@ -1,16 +1,17 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - RTSNetworkManager
+    - RTSPlayer
+    - Unit
+    - UnitCommandGiver
     - UnitMovement
+    - UnitSelectionHandle
     - UnitSpawner
     Mirror.Components.dll:
     - Mirror.NetworkTransform
     Mirror.dll:
     - Mirror.NetworkIdentity
-    - Mirror.NetworkManagerHUD
     - Mirror.NetworkStartPosition
-    - kcp2k.KcpTransport
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputActionReference
@@ -59,6 +60,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.Universal.Tonemapping
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources
     - UnityEngine.Rendering.Universal.Vignette
     - UnityEngine.Rendering.Universal.XRSystemData
     Unity.Rider.Editor.dll:
@@ -90,7 +92,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Scene_Map01.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -150,98 +152,86 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3748}
     - Class: 114
-      Script: {instanceID: 3870}
+      Script: {instanceID: 3872}
     - Class: 114
-      Script: {instanceID: 3992}
+      Script: {instanceID: 3994}
     - Class: 114
-      Script: {instanceID: 4222}
+      Script: {instanceID: 4224}
     - Class: 114
-      Script: {instanceID: 4358}
+      Script: {instanceID: 4360}
     - Class: 114
-      Script: {instanceID: 4444}
+      Script: {instanceID: 4446}
     - Class: 114
-      Script: {instanceID: 4534}
+      Script: {instanceID: 4536}
     - Class: 114
-      Script: {instanceID: 4678}
+      Script: {instanceID: 4680}
     - Class: 114
-      Script: {instanceID: 4762}
+      Script: {instanceID: 4978}
     - Class: 114
-      Script: {instanceID: 4898}
+      Script: {instanceID: 5370}
     - Class: 114
-      Script: {instanceID: 4976}
+      Script: {instanceID: 5502}
     - Class: 114
-      Script: {instanceID: 5332}
+      Script: {instanceID: 5586}
     - Class: 114
-      Script: {instanceID: 5368}
+      Script: {instanceID: 5600}
     - Class: 114
-      Script: {instanceID: 5500}
+      Script: {instanceID: 5664}
     - Class: 114
-      Script: {instanceID: 5584}
+      Script: {instanceID: 5728}
     - Class: 114
-      Script: {instanceID: 5598}
+      Script: {instanceID: 5886}
     - Class: 114
-      Script: {instanceID: 5662}
+      Script: {instanceID: 5888}
     - Class: 114
-      Script: {instanceID: 5882}
+      Script: {instanceID: 5910}
     - Class: 114
-      Script: {instanceID: 5884}
+      Script: {instanceID: 6202}
     - Class: 114
-      Script: {instanceID: 5906}
+      Script: {instanceID: 6334}
     - Class: 114
-      Script: {instanceID: 6002}
+      Script: {instanceID: 6490}
     - Class: 114
-      Script: {instanceID: 6198}
+      Script: {instanceID: 6542}
     - Class: 114
-      Script: {instanceID: 6330}
+      Script: {instanceID: 6584}
     - Class: 114
-      Script: {instanceID: 6486}
+      Script: {instanceID: 6590}
     - Class: 114
-      Script: {instanceID: 6538}
+      Script: {instanceID: 6696}
     - Class: 114
-      Script: {instanceID: 6580}
+      Script: {instanceID: 6738}
     - Class: 114
-      Script: {instanceID: 6586}
+      Script: {instanceID: 6790}
     - Class: 114
-      Script: {instanceID: 6692}
+      Script: {instanceID: 6880}
     - Class: 114
-      Script: {instanceID: 6734}
+      Script: {instanceID: 6998}
     - Class: 114
-      Script: {instanceID: 6786}
+      Script: {instanceID: 7170}
     - Class: 114
-      Script: {instanceID: 6874}
+      Script: {instanceID: 7302}
     - Class: 114
-      Script: {instanceID: 6992}
+      Script: {instanceID: 7318}
     - Class: 114
-      Script: {instanceID: 7164}
+      Script: {instanceID: 7364}
     - Class: 114
-      Script: {instanceID: 7296}
+      Script: {instanceID: 7372}
     - Class: 114
-      Script: {instanceID: 7312}
+      Script: {instanceID: 8052}
     - Class: 114
-      Script: {instanceID: 7358}
+      Script: {instanceID: 8092}
     - Class: 114
-      Script: {instanceID: 8044}
+      Script: {instanceID: 8460}
     - Class: 114
-      Script: {instanceID: 8084}
+      Script: {instanceID: 8620}
     - Class: 114
-      Script: {instanceID: 8316}
-    - Class: 114
-      Script: {instanceID: 8402}
-    - Class: 114
-      Script: {instanceID: 8452}
-    - Class: 114
-      Script: {instanceID: 8612}
-    - Class: 114
-      Script: {instanceID: 8720}
-    - Class: 114
-      Script: {instanceID: 23574}
+      Script: {instanceID: 8728}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 157
-      Script: {instanceID: 0}
-    - Class: 195
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
@@ -746,6 +736,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineFramingTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 5b762b87a10823d36ce1af0fed1db09b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Unit
   - hash:
       serializedVersion: 2
       Hash: 0954c379c8055aaa25bbdc68d6f4f598
@@ -1300,6 +1296,12 @@ ScriptsOnlyBuild:
     className: ChannelMixer
   - hash:
       serializedVersion: 2
+      Hash: b5e197064e75ba0f71648f1a310b3a27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UnitSelectionHandle
+  - hash:
+      serializedVersion: 2
       Hash: 93827904d1237a324c550ba2fe498ea8
     assemblyName: Mirror.Authenticators.dll
     namespaceName: Mirror.Authenticators
@@ -1564,6 +1566,12 @@ ScriptsOnlyBuild:
     className: NetworkManagerPong
   - hash:
       serializedVersion: 2
+      Hash: 067e81fa3a445454099cee5602247fb1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UnitSpawner
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -1706,6 +1714,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e7102b4534d161ab8bf9caddb486ea68
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UnitCommandGiver
   - hash:
       serializedVersion: 2
       Hash: c5bf757e45517373f48138682b6cc89f
@@ -2050,11 +2064,11 @@ ScriptsOnlyBuild:
     className: NetworkRoomPlayerExt
   - hash:
       serializedVersion: 2
-      Hash: 067e81fa3a445454099cee5602247fb1
+      Hash: 78a0d8015f73e40fbda3ee846c9ba7c9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: UnitSpawner
+    className: RTSPlayer
   platform: 19
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/Scene_Map01.unity
   playerPath: C:/Users/pbriu/Documents/UnityProjects/Builds/RealtimeStrategy.exe
