@@ -8,14 +8,29 @@ using UnityEngine.InputSystem;
 public class UnitMovement : NetworkBehaviour
 {
     [SerializeField] private NavMeshAgent agent = null;
+    [SerializeField] private Targeter targeter = null;
     // private Camera mainCamera;
 
     #region Server
+
+    // The Server tag does not allow the code to be run on a client, but it sends warnings.
+    // ServerCallback doest the exact same thing, but does not print any warnings saying that
+    // a client is trying to run this code
+    [ServerCallback]
+    private void Update()
+    {
+        if (agent.hasPath) { return; }
+
+        if(agent.remainingDistance > agent.stoppingDistance) { return; } // Checking if the object has reached it`s target yet
+
+        agent.ResetPath(); // Clearing the path, so that the object will not try to get to its target continuously
+    }
 
     // Movement is done via NavigationMesh (moving player using mouse click)
     [Command]
     public void CmdMove(Vector3 position)
     {
+        targeter.ClearTarget();
         // Returns true or false if the position is valid
         if (!NavMesh.SamplePosition(position, out NavMeshHit hit, 1f, NavMesh.AllAreas)) { return; }
         agent.SetDestination(hit.position);
