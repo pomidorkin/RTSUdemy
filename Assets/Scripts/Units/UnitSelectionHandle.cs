@@ -20,6 +20,22 @@ public class UnitSelectionHandle : MonoBehaviour
     {
         mainCamera = Camera.main;
         //player = NetworkClient.connection.identity.GetComponent<RTSPlayer>();
+
+        // This event is raised whenever a unit despawns
+        Unit.AuthorityOnUnitDespawned += AuthorityHandleUnitDespawned;
+
+        GameoverHandler.ClientOnGameOver += ClientHandleGameover;
+    }
+
+    private void OnDestroy()
+    {
+        Unit.AuthorityOnUnitDespawned -= AuthorityHandleUnitDespawned;
+        GameoverHandler.ClientOnGameOver -= ClientHandleGameover;
+    }
+
+    private void ClientHandleGameover(string winnerName)
+    {
+        enabled = false;
     }
 
     private void Update()
@@ -111,4 +127,10 @@ public class UnitSelectionHandle : MonoBehaviour
         }
 
     }
+
+    private void AuthorityHandleUnitDespawned(Unit unit)
+    {
+        SelectedUnits.Remove(unit);
+    }
+
 }

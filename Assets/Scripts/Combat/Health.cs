@@ -25,6 +25,22 @@ public class Health : NetworkBehaviour
     public override void OnStartServer()
     {
         currentHealth = maxHealth;
+
+        UnitBase.ServerOnPlayerDie += ServeHandlePlayerDie;
+    }
+
+    public override void OnStopServer()
+    {
+        UnitBase.ServerOnPlayerDie -= ServeHandlePlayerDie;
+    }
+
+    private void ServeHandlePlayerDie(int connectionId)
+    {
+        if(connectionToClient.connectionId != connectionId) { return; }
+
+        // It`s a way to destroy an object when player dies
+        // In other words, everything that has a Health script will die if it base dies
+        DealDamage(currentHealth);
     }
 
     [Server]

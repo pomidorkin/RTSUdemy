@@ -1,4 +1,5 @@
 using Mirror;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,6 +14,24 @@ public class UnitMovement : NetworkBehaviour
     // private Camera mainCamera;
 
     #region Server
+
+    public override void OnStartServer()
+    {
+        GameoverHandler.ServerOnGameover += ServerHandleGameover;
+    }
+
+    public override void OnStopServer()
+    {
+        GameoverHandler.ServerOnGameover -= ServerHandleGameover;
+    }
+
+    [Server]
+    private void ServerHandleGameover()
+    {
+        agent.ResetPath();
+    }
+
+
 
     // The Server tag does not allow the code to be run on a client, but it sends warnings.
     // ServerCallback doest the exact same thing, but does not print any warnings saying that
