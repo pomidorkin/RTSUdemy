@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8057705417101860024}
   - component: {fileID: 9029320606167551925}
   - component: {fileID: 563224592458979478}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 5533487739038914656}
   - component: {fileID: 3362358867224349905}
   - component: {fileID: 6572438241207294236}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 4433274251378540793}
   - component: {fileID: -9130042186073981652}
   - component: {fileID: 1256713352667819805}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,6 +244,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   rb: {fileID: 1256713352667819805}
+  damageToDeal: 20
   launchForce: 10
   destroyAfterSeconds: 5
 --- !u!54 &1256713352667819805
